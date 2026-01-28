@@ -1,0 +1,2081 @@
+@font-face {
+  font-family: "Monsterrat";
+  src: url(../fonts/Montserrat-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Monsterrat";
+  src: url(../fonts/Montserrat-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Monsterrat";
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Monsterrat";
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+  font-weight: 800;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 100vh;
+}
+
+.header_block__1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.logo_header_block__1 {
+  font-family: "Monsterrat";
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 800;
+  margin-top: 26px;
+  margin-left: 401px;
+}
+@media (max-width: 390px) {
+  .logo_header_block__1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.black {
+  color: #000;
+}
+
+.brown {
+  color: #BE8558;
+}
+
+.header_words_block__1 {
+  display: flex;
+  gap: 64px;
+  margin-top: 36px;
+  padding-left: 48px;
+  font-family: "Monsterrat";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+@media (max-width: 390px) {
+  .header_words_block__1 {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+
+.btn {
+  background-color: #BE8558;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 7px;
+  font-family: "Monsterrat";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  width: 130px;
+  height: 44px;
+}
+@media (max-width: 390px) {
+  .btn {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+
+.btn_header_block__1 {
+  margin-top: -12px;
+  margin-left: 306px;
+}
+
+.btn:hover {
+  background-color: #694224;
+  border: none;
+}
+
+.main_hero_block__1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_hero-descript {
+  margin-left: 401px;
+  margin-top: 313px;
+  width: 519px;
+}
+
+.headline_block__1 {
+  font-family: "Monsterrat";
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 800;
+}
+@media (max-width: 390px) {
+  .headline_block__1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+.text_block__1 {
+  font-family: "Monsterrat";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+@media (max-width: 390px) {
+  .text_block__1 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.btn_main_block__1 {
+  margin-top: 48px;
+}
+
+.hero_img_block__1 {
+  margin-top: 132px;
+  margin-right: 335px;
+  width: 544px;
+  height: 696px;
+}
+
+.main_block__2 {
+  font-family: "Monsterrat";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+}
+@media (max-width: 390px) {
+  .main_block__2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.cards_1_block__2 {
+  margin-top: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 96px;
+  margin-left: 162px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  display: inline-block;
+}
+
+.card_img__1_block_2 {
+  width: 420px;
+  height: 420px;
+  border-radius: 20px;
+}
+
+.card_body_block__2 {
+  width: 100%;
+  display: block;
+  height: 256px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  margin-top: -64px;
+  margin-left: 72px;
+  margin-right: 48px;
+}
+
+.card_title_block__2 {
+  font-family: "Monsterrat";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  padding-top: 91px;
+  padding-left: 124px;
+  width: 196px;
+  height: 28px;
+  text-align: center;
+}
+@media (max-width: 390px) {
+  .card_title_block__2 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.btn_main_block__2 {
+  margin-left: 150px;
+  margin-top: 48px;
+}
+
+.main_block__3 {
+  font-family: "Monsterrat";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+}
+@media (max-width: 390px) {
+  .main_block__3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.cards_block__3 {
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 107px;
+  margin-left: 208px;
+}
+
+.card_block__3 {
+  width: 430px;
+  height: 480px;
+  background-color: #FFFFFF;
+  border-radius: 128px 32px 32px 32px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.card_2_block__3 {
+  margin-top: 64px;
+  width: 430px;
+  height: 480px;
+  background-color: #FFFFFF;
+  border-radius: 128px 32px 32px 32px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.ellipse_1_block__3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #FFFFFF, #99C795);
+  margin-top: 95px;
+  margin-left: 155px;
+}
+
+.main_card_block__3 {
+  font-family: "Monsterrat";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  width: 282px;
+  margin-top: 32px;
+  margin-left: 74px;
+  text-align: center;
+}
+@media (max-width: 390px) {
+  .main_card_block__3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.img_block__3 {
+  width: 70px;
+  height: 70px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.text_card_block__3 {
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-top: 32px;
+  margin-left: 66px;
+  text-align: center;
+  width: 298px;
+}
+@media (max-width: 390px) {
+  .text_card_block__3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.ellipse_2_block__3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(to left, #FFFFFF, #BE8558);
+  margin-top: 95px;
+  margin-left: 155px;
+}
+
+.ellipse_3_block__3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(to top, #FFFFFF, #EE9B94);
+  margin-top: 95px;
+  margin-left: 155px;
+}
+
+.block__4 {
+  width: 1450px;
+  height: 186px;
+  background: linear-gradient(to bottom, #FFFFFF, #BE8558 95%);
+  border-radius: 128px 32px 32px 32px;
+  margin-top: 128px;
+  margin-left: 235px;
+}
+
+.figure_block__4 {
+  font-family: "Monsterrat";
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 800;
+  color: #694224;
+  gap: 360px;
+  margin-top: 56px;
+  margin-left: 306px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 390px) {
+  .figure_block__4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.label_block__4 {
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #694224;
+  gap: 250px;
+  margin-top: 16px;
+  margin-left: 272px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+@media (max-width: 390px) {
+  .label_block__4 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.cheesecakes {
+  margin-left: 20px;
+}
+
+.clients {
+  margin-left: 20px;
+}
+
+.block__5 {
+  margin-top: 192px;
+  width: 1920px;
+  height: 814px;
+  background-color: rgba(105, 66, 36, 0.1019607843);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img_block__5 {
+  width: 740px;
+  height: 820px;
+  margin-left: 208px;
+  margin-top: -64px;
+}
+
+.content_block__5 {
+  margin-left: 124px;
+  margin-top: 179px;
+}
+
+.main_block__5 {
+  font-family: "Monsterrat";
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 800;
+}
+@media (max-width: 390px) {
+  .main_block__5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.form_block {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.input_block {
+  width: 640px;
+  height: 64px;
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  padding-left: 8px;
+  border: none;
+  background-color: #FFFFFF;
+}
+@media (max-width: 390px) {
+  .input_block {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.input_block::-moz-placeholder {
+  color: #000;
+}
+
+.input_block::placeholder {
+  color: #000;
+}
+
+.upload_input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 640px;
+  height: 64px;
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  padding-left: 8px;
+  border: none;
+  background-color: #FFFFFF;
+}
+@media (max-width: 390px) {
+  .upload_input {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.upload_input span {
+  color: #000;
+}
+
+.upload_input img {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+
+.main_block__6 {
+  font-family: "Monsterrat";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+}
+@media (max-width: 390px) {
+  .main_block__6 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.cards_block__6 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 128px;
+  margin-left: 207px;
+}
+
+.card_1_block__6 {
+  background: linear-gradient(to bottom right, #FFFFFF, #BE8558 95%);
+  width: 280px;
+  height: 270px;
+  margin-top: 131px;
+  border-radius: 24px;
+}
+
+.ellipse_block__6 {
+  width: 96px;
+  height: 96px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Monsterrat";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+  color: #BE8558;
+  margin-top: -56px;
+  margin-left: 92px;
+  background-color: #FFFFFF;
+}
+@media (max-width: 390px) {
+  .ellipse_block__6 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.main_card_block__6 {
+  font-family: "Monsterrat";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-top: 43px;
+  margin-left: 43px;
+  text-align: center;
+  width: 194px;
+}
+@media (max-width: 390px) {
+  .main_card_block__6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.text_card_block__6 {
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-top: 32px;
+  margin-left: 42px;
+  width: 197px;
+  text-align: center;
+}
+@media (max-width: 390px) {
+  .text_card_block__6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.card_2_block__6 {
+  background: linear-gradient(to top left, #FFFFFF, #694224 95%);
+  width: 280px;
+  height: 270px;
+  margin-top: 131px;
+  border-radius: 24px;
+}
+
+.card_3_block__6 {
+  background: linear-gradient(to top right, #FFFFFF, #FFEDD9 95%);
+  width: 280px;
+  height: 270px;
+  margin-top: 131px;
+  border-radius: 24px;
+}
+
+.card_4_block__6 {
+  background: linear-gradient(to bottom left, #FFFFFF, #99491C 95%);
+  width: 280px;
+  height: 270px;
+  margin-top: 131px;
+  border-radius: 24px;
+}
+
+.two {
+  color: #694224;
+}
+
+.three {
+  color: #FFEDD9;
+}
+
+.four {
+  color: #99491C;
+}
+
+.main_block__7 {
+  font-family: "Monsterrat";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+}
+@media (max-width: 390px) {
+  .main_block__7 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.cards_block__7 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-top: 96px;
+  margin-left: 208px;
+}
+
+.card_block__7 {
+  width: 448px;
+  height: 424px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 128px 32px 32px 32px;
+}
+
+.quotes_block__7 {
+  margin-top: 48px;
+  margin-left: 179px;
+  width: 90px;
+  height: 90px;
+}
+
+.text_review_block__7 {
+  text-align: center;
+  width: 338px;
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-top: 32px;
+  margin-left: 55px;
+}
+@media (max-width: 390px) {
+  .text_review_block__7 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.stars_block__7 {
+  margin-top: 32px;
+  width: 108px;
+  margin-left: 170px;
+}
+
+.reviewer_block__7 {
+  margin-top: 32px;
+  margin-left: 170px;
+  font-family: "Monsterrat";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: center;
+  width: 108px;
+}
+@media (max-width: 390px) {
+  .reviewer_block__7 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.block__8 {
+  width: 1920px;
+  height: 636px;
+  background-color: rgba(255, 237, 217, 0.5019607843);
+  margin-top: 160px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn_block__8 {
+  margin-bottom: 64px;
+}
+
+.main_block__8 {
+  font-family: "Monsterrat";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+  margin-top: 32px;
+}
+@media (max-width: 390px) {
+  .main_block__8 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.img_block__8 {
+  margin-left: 1162px;
+  margin-top: -700px;
+  width: 544px;
+  height: 663px;
+}
+
+.arrow_block_8 {
+  margin-right: 24px;
+}
+
+.content_block__8 {
+  margin-left: 208px;
+}
+
+.form_block__8 {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.main_block__9 {
+  font-family: "Monsterrat";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+}
+@media (max-width: 390px) {
+  .main_block__9 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.cards_1_block__9 {
+  margin-top: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 96px;
+  margin-left: 172px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  display: inline-block;
+}
+
+.card_img__1_block_9 {
+  width: 420px;
+  height: 420px;
+  border-radius: 20px;
+}
+
+.card_body_block__9 {
+  width: 100%;
+  display: block;
+  height: 305px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  margin-top: -64px;
+  margin-left: 64px;
+  margin-right: 32px;
+}
+
+.card_text_block__9 {
+  font-family: "Monsterrat";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  padding-top: 105px;
+  width: 274px;
+  text-align: center;
+  margin-left: 73px;
+}
+@media (max-width: 390px) {
+  .card_text_block__9 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.btn_main_block__9 {
+  margin-top: 32px;
+  margin-left: 145px;
+}
+
+.block__10 {
+  width: 1920px;
+  height: 700px;
+  background-color: rgba(255, 237, 217, 0.5019607843);
+  margin-top: 128px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_block__10 {
+  font-family: "Monsterrat";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+}
+@media (max-width: 390px) {
+  .main_block__10 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.content_block__10 {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 208px;
+  gap: 48px;
+}
+
+.main_descript_block__10 {
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  width: 347px;
+  margin-top: 32px;
+}
+@media (max-width: 390px) {
+  .main_descript_block__10 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.apps {
+  gap: 6px;
+  width: 162px;
+  height: 50px;
+  margin-top: 12px;
+}
+
+.map_block__10 {
+  margin-top: -56px;
+  width: 775px;
+  height: 700px;
+  margin-left: 413px;
+}
+
+.block__11 {
+  width: 1504px;
+  height: 304px;
+  background: linear-gradient(to bottom, #FFFFFF, #694224 95%);
+  margin-top: 128px;
+  border-radius: 128px 32px 32px 32px;
+  margin-left: 208px;
+}
+
+.content_block__11 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn_block__11 {
+  background-color: #FFFFFF;
+  color: #694224;
+  border: none;
+  border-radius: 7px;
+  font-family: "Monsterrat";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  width: 130px;
+  height: 44px;
+  margin-bottom: 52px;
+  margin-top: 32px;
+}
+@media (max-width: 390px) {
+  .btn_block__11 {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+
+.btn_block__11:hover {
+  background-color: #694224;
+  color: #FFFFFF;
+  border: none;
+}
+
+.main_block__11 {
+  font-family: "Monsterrat";
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 800;
+  margin-top: 48px;
+}
+@media (max-width: 390px) {
+  .main_block__11 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.main_descript_block__11 {
+  margin-top: 36px;
+  width: 466px;
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+}
+@media (max-width: 390px) {
+  .main_descript_block__11 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+footer {
+  margin-top: 128px;
+  width: 1920px;
+  height: 396px;
+}
+
+.main__footer {
+  width: 1920px;
+  height: 300px;
+  background-color: rgba(255, 237, 217, 0.1019607843);
+  gap: 210px;
+  display: flex;
+}
+
+.footer__column_logo {
+  padding-left: 250px;
+}
+
+.logo_footer {
+  font-family: "Monsterrat";
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 800;
+  padding-top: 76px;
+}
+@media (max-width: 390px) {
+  .logo_footer {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.footer__tagline {
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  width: 336px;
+  padding-top: 30px;
+}
+@media (max-width: 390px) {
+  .footer__tagline {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.footer__column {
+  gap: 26px;
+}
+
+.footer__title {
+  font-family: "Monsterrat";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  padding-top: 62px;
+}
+@media (max-width: 390px) {
+  .footer__title {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+
+.social_title {
+  text-align: center;
+  width: 162px;
+}
+
+.list_information {
+  list-style: none;
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+@media (max-width: 390px) {
+  .list_information {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.info__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.info_item {
+  padding-top: 26px;
+}
+
+.footer__column_social {
+  padding-top: 37px;
+}
+
+.apps_footer {
+  gap: 6px;
+  padding-top: 32px;
+}
+
+.footer__bottom {
+  background-color: rgba(255, 237, 217, 0.25);
+  height: 96px;
+  width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer__copyright {
+  font-family: "Monsterrat";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+@media (max-width: 390px) {
+  .footer__copyright {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  .header_block__1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .logo_header_block__1 {
+    font-family: "Monsterrat";
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 800;
+    margin-top: 12px;
+    display: flex;
+    margin-left: 12px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .logo_header_block__1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 390px) {
+  .header_words_block__1 {
+    gap: 12px;
+    margin-top: 14px;
+    padding-left: 16px;
+    font-family: "Monsterrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .header_words_block__1 {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 390px) {
+  .btn {
+    background-color: #BE8558;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: "Monsterrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    width: 80px;
+    height: 28px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .btn {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 390px) {
+  .btn_header_block__1 {
+    margin-top: -6px;
+    margin-left: 40px;
+  }
+  .btn:hover {
+    background-color: #694224;
+    border: none;
+  }
+  .main_hero_block__1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main_hero-descript {
+    margin-left: 16px;
+    margin-top: 12px;
+    width: auto;
+  }
+  .text_block__1 {
+    margin-top: 8px;
+    width: auto;
+  }
+  .btn_main_block__1 {
+    margin-top: 16px;
+  }
+  .hero_img_block__1 {
+    margin-top: 40px;
+    margin-left: 0;
+    width: 100%;
+    height: 300px;
+  }
+  .main_block__2 {
+    font-family: "Monsterrat";
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+    text-align: center;
+    margin-top: 32px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_block__2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .cards_1_block__2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-left: auto;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+  }
+  .card_img__1_block_2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .card_body_block__2 {
+    width: 200px;
+    display: block;
+    height: 175px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+    margin-top: -80px;
+    margin-left: 32px;
+    margin-right: 48px;
+  }
+  .card_title_block__2 {
+    font-family: "Monsterrat";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    margin-left: -80px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .card_title_block__2 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .btn_main_block__2 {
+    margin-top: 16px;
+    margin-left: 60px;
+  }
+  .main_block__3 {
+    font-family: "Monsterrat";
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+    margin-top: 48px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_block__3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .cards_block__3 {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-left: 10px;
+  }
+  .card_block__3 {
+    width: 230px;
+    height: 260px;
+    background-color: #FFFFFF;
+    border-radius: 80px 32px 32px 32px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  }
+  .card_2_block__3 {
+    margin-top: 0;
+    width: 230px;
+    height: 260px;
+    border-radius: 80px 32px 32px 32px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  }
+  .ellipse_1_block__3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #FFFFFF, #99C795);
+    margin-top: 24px;
+    margin-left: 85px;
+  }
+  .main_card_block__3 {
+    font-family: "Monsterrat";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    width: 200px;
+    margin-top: 32px;
+    margin-left: 15px;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_card_block__3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .img_block__3 {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .text_card_block__3 {
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-top: 24px;
+    margin-left: 15px;
+    text-align: center;
+    width: 200px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .text_card_block__3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .ellipse_2_block__3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #FFFFFF, #BE8558);
+    margin-top: 24px;
+    margin-left: 85px;
+  }
+  .ellipse_3_block__3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(to top, #FFFFFF, #EE9B94);
+    margin-top: 24px;
+    margin-left: 85px;
+  }
+  .block__4 {
+    width: 350px;
+    height: 170px;
+    background: linear-gradient(to bottom, #FFFFFF, #BE8558 95%);
+    border-radius: 64px 32px 32px 32px;
+    margin-top: 64px;
+    margin-left: 20px;
+  }
+  .figure_block__4 {
+    font-family: "Monsterrat";
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #694224;
+    gap: 80px;
+    margin-top: 56px;
+    margin-left: 48px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .figure_block__4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 390px) {
+  .label_block__4 {
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #694224;
+    gap: 30px;
+    margin-top: 16px;
+    margin-left: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .label_block__4 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .cheesecakes {
+    width: 60px;
+  }
+  .clients {
+    width: 60px;
+  }
+  .block__5 {
+    margin-top: 64px;
+    width: 100%;
+    height: 360px;
+    background-color: rgba(105, 66, 36, 0.1019607843);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+  }
+  .img_block__5 {
+    display: none;
+  }
+  .content_block__5 {
+    margin-left: 24px;
+    margin-top: 48px;
+  }
+  .main_block__5 {
+    font-family: "Monsterrat";
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 800;
+    margin-left: auto;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_block__5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 390px) {
+  .form_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .input_block {
+    width: 230px;
+    height: 32px;
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    padding-left: 8px;
+    border: none;
+    background-color: #FFFFFF;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .input_block {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .input_block::-moz-placeholder {
+    color: #000;
+  }
+  .input_block::placeholder {
+    color: #000;
+  }
+  .upload_input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 230px;
+    height: 32px;
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    padding-left: 4px;
+    border: none;
+    background-color: #FFFFFF;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .upload_input {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .upload_input span {
+    color: #000;
+  }
+  .upload_input img {
+    width: 10px;
+    height: 10px;
+    margin-left: 4px;
+  }
+  .btn_block__5 {
+    margin-bottom: 48px;
+  }
+  .main_block__6 {
+    font-family: "Monsterrat";
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+    margin-top: 32px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_block__6 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .cards_block__6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    gap: 16px;
+  }
+  .card_1_block__6 {
+    background: linear-gradient(to bottom right, #FFFFFF, #BE8558 95%);
+    width: 200px;
+    height: 180px;
+    margin-top: 96px;
+    margin-left: -64px;
+    border-radius: 24px;
+  }
+  .ellipse_block__6 {
+    width: 64px;
+    height: 64px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Monsterrat";
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 800;
+    color: #BE8558;
+    margin-top: -48px;
+    margin-left: 64px;
+    background-color: #FFFFFF;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .ellipse_block__6 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .main_card_block__6 {
+    font-family: "Monsterrat";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 43px;
+    margin-left: 3px;
+    text-align: center;
+    width: 194px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_card_block__6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .text_card_block__6 {
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-top: 32px;
+    margin-left: 1.5px;
+    width: 197px;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .text_card_block__6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .card_2_block__6 {
+    background: linear-gradient(to top left, #FFFFFF, #694224 95%);
+    width: 200px;
+    height: 180px;
+    margin-top: 64px;
+    margin-left: 64px;
+    border-radius: 24px;
+  }
+  .card_3_block__6 {
+    background: linear-gradient(to top right, #FFFFFF, #FFEDD9 95%);
+    width: 200px;
+    height: 180px;
+    margin-top: 64px;
+    margin-left: -64px;
+    border-radius: 24px;
+  }
+  .card_4_block__6 {
+    background: linear-gradient(to bottom left, #FFFFFF, #99491C 95%);
+    width: 200px;
+    height: 180px;
+    margin-top: 64px;
+    margin-left: 64px;
+    border-radius: 24px;
+  }
+  .two {
+    color: #694224;
+  }
+  .three {
+    color: #FFEDD9;
+  }
+  .four {
+    color: #99491C;
+  }
+  .main_block__7 {
+    font-family: "Monsterrat";
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+    margin-top: 72px;
+    width: 230px;
+    margin-left: 80px;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_block__7 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .cards_block__7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 64px;
+    margin-left: auto;
+  }
+  .card_block__7 {
+    width: 300px;
+    height: 285px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 128px 32px 32px 32px;
+  }
+  .quotes_block__7 {
+    margin-top: 24px;
+    margin-left: 125px;
+    width: 50px;
+    height: 50px;
+  }
+  .text_review_block__7 {
+    text-align: center;
+    width: 270px;
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-top: 32px;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .text_review_block__7 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .stars_block__7 {
+    margin-top: 24px;
+    width: 108px;
+    margin-left: 96px;
+  }
+  .reviewer_block__7 {
+    margin-top: 24px;
+    margin-left: 96px;
+    font-family: "Monsterrat";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: center;
+    width: 108px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .reviewer_block__7 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .block__8 {
+    width: 100%;
+    height: 420px;
+    background-color: rgba(255, 237, 217, 0.5019607843);
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main_block__8 {
+    font-family: "Monsterrat";
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-left: -180px;
+    width: 290px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_block__8 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .img_block__8 {
+    display: none;
+  }
+  .arrow_block_8 {
+    margin-right: 24px;
+  }
+  .content_block__8 {
+    margin-left: 208px;
+  }
+  .form_block__8 {
+    padding-bottom: 32px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: -180px;
+  }
+  .main_block__9 {
+    font-family: "Monsterrat";
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+    margin-top: 48px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_block__9 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .cards_1_block__9 {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    gap: 56px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+  }
+  .card_body_block__9 {
+    width: 300px;
+    display: block;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+    margin-top: -64px;
+    margin-left: 16px;
+    margin-right: 32px;
+  }
+  .card_text_block__9 {
+    font-family: "Monsterrat";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-top: 80px;
+    width: 274px;
+    text-align: center;
+    margin-left: 13px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .card_text_block__9 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .btn_main_block__9 {
+    margin-top: 32px;
+    margin-left: 110px;
+  }
+  .block__10 {
+    width: 100%;
+    height: 532px;
+    background-color: rgba(255, 237, 217, 0.5019607843);
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main_block__10 {
+    font-family: "Monsterrat";
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 800;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_block__10 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .content_block__10 {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+    gap: 48px;
+  }
+  .main_descript_block__10 {
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    width: 250px;
+    margin-top: 32px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_descript_block__10 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .apps {
+    gap: 6px;
+    width: 162px;
+    height: 50px;
+    margin-top: 12px;
+    margin-bottom: 48px;
+  }
+  .map_block__10 {
+    display: none;
+  }
+  .block__11 {
+    width: 370px;
+    height: 232px;
+    background: linear-gradient(to bottom, #FFFFFF, #694224 95%);
+    margin-top: 80px;
+    border-radius: 104px 32px 32px 32px;
+    margin-left: 10px;
+  }
+  .content_block__11 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .btn_block__11 {
+    background-color: #FFFFFF;
+    color: #694224;
+    border: none;
+    border-radius: 7px;
+    font-family: "Monsterrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    width: 80px;
+    height: 28px;
+    margin-top: 24px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .btn_block__11 {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 390px) {
+  .btn_block__11:hover {
+    background-color: #694224;
+    color: #FFFFFF;
+    border: none;
+  }
+  .main_block__11 {
+    font-family: "Monsterrat";
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 800;
+    margin-top: 48px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_block__11 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 390px) {
+  .main_descript_block__11 {
+    margin-top: 24px;
+    width: 350px;
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .main_descript_block__11 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  footer {
+    margin-top: 80px;
+    width: 390px;
+    height: 500px;
+  }
+  .main__footer {
+    width: 390px;
+    height: 500px;
+    background-color: rgba(255, 237, 217, 0.1019607843);
+    gap: 210px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__column_logo {
+    padding-left: 24px;
+  }
+  .logo_footer {
+    font-family: "Monsterrat";
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 800;
+    padding-top: 32px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .logo_footer {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 390px) {
+  .footer__tagline {
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    width: 300px;
+    padding-top: 16px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .footer__tagline {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .information {
+    margin-top: -250px;
+  }
+  .support {
+    margin-top: -340px;
+  }
+  .footer__column {
+    gap: 26px;
+  }
+  .footer__title {
+    font-family: "Monsterrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    width: 100px;
+    margin-left: 24px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .footer__title {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 390px) {
+  .social_title {
+    text-align: center;
+    width: 80px;
+    margin-top: -440px;
+    margin-left: 24px;
+  }
+  .list_information {
+    list-style: none;
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-left: 24px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .list_information {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .info__link {
+    text-decoration: none;
+    color: #000;
+  }
+  .info_item {
+    padding-top: 8px;
+  }
+  .footer__column_social {
+    padding-top: 8px;
+  }
+  .apps_footer {
+    gap: 6px;
+    padding-top: 8px;
+    margin-left: 21px;
+  }
+  .footer__bottom {
+    background-color: rgba(255, 237, 217, 0.25);
+    height: 64px;
+    width: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer__copyright {
+    font-family: "Monsterrat";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    width: 280px;
+  }
+}
+@media (max-width: 390px) and (max-width: 390px) {
+  .footer__copyright {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}/*# sourceMappingURL=cheesecake.css.map */
